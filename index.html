@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tami Kim's portfolio</title>
+    <link rel="stylesheet" href="./main.css">
+    
+    <script src="https://kit.fontawesome.com/b1d3c025ef.js" crossorigin="anonymous"></script>
+
+    
+    <!-- text_anime -->
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+
+    <!-- parallax.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- hover_3d -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+
+    <!-- swiper -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <script  src="./main.js" defer></script>
+
+</head>
+<body>
+
+    <div class="cursor"></div>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#page1">
+                <img src="./images/logo.png" alt="logo" width="160px">
+            </a></div>
+            <ul class="nav">
+            <li><a href="#page1" class="menu">Intro</a></li>
+            <li><a href="#page2" class="menu">About</a></li>
+            <li><a href="#page4" class="menu">Work</a></li>
+            <li><a href="#page10" class="menu">Contact</a></li>
+            <!-- <li id="resume" class="pop_up" onclick="resume()">Resume</li> -->
+            </ul>
+    </header>
+       
+    <footer class="footer">
+        <div class="sns">
+                <a href="https://github.com/tamoimi?tab=repositories" target="_blank"><i class="fa-brands fa-github-alt" id="git"></i></a>
+                <a href="https://www.linkedin.com/in/tamiortami" target="_blank"><i class="fa-brands fa-linkedin-in" id="link"></i></a>
+                <div class="line"></div>
+        </div>
+        <div class="email">
+            <a href="mailto:"tamiortami@gmail.com target="_blank">tamiortami@gamil.com</a>
+            <div class="line"></div>
+        </div>
+    </footer>
+
+        <div id="container">
+            <section class="page1 page on" id="page1">
+            <div class="bg_img"><img src="./images/dust-png-1-by-PhotoshopSupply.png" width="100%" alt="bg"></div>
+            <div class="page1_txt">
+            <div class="eng_txt">
+                <span>Hi, my name is</span> <span class="name">Tami Kim</span>
+                <p>I am a Front end developer</p><span class="location">living in Denmark </span>
+                <p>I shape websites; thereafter they shape me</p>
+            </div>
+            <div class="kor_txt">
+                <p>Hello, I am <strong class="colored">Taekyung Kim</strong> a frontend developer who is always eager to learn and persistent.</p>
+                <p>As I began studying frontend development, I discovered the hidden <strong class="colored">beauty</strong> of the web development world.</p>
+                <p>Now, I am <strong class="colored">ready</strong> to share this beauty with others.</p>
+            </div>
+            </div>
+        </section><!--page1-->
+
+        <section class="page2 page on" id="page2">
+            <div class="bg_img_other"></div>
+            <div class="page2_inner">
+             <div class="img_box box fade-class delay_01" data-aos="fade-right" data-aos-delay="50">
+                <div class="profile" id="profile">
+                    <!-- <img src="./images/profile_img_black.jpg" alt="profile_img" width="80%" class="stay_img"> -->
+                    <img src="./images/profile_img.jpg" alt="hover_img" width="90%" class="hover_img">
+                </div>
+            <div class="img_box_txt">
+                <strong></strong><span>Tami Kim</span>
+                <p>1994.05</p>
+            </div>
+             </div>
+             <div class="txt_box box fade-class delay_02">
+                <p class="title" data-aos="fade-left" data-aos-delay="200">Education</p>
+                <ul data-aos="fade-left" data-aos-delay="200">
+                    <li>2022&nbsp;&nbsp;&nbsp;Completed the Front-End Developer Training Program at Green Computer Academy</li>
+                    <li>2017&nbsp;&nbsp;&nbsp;Graduated from the Department of Fine Arts, Silla University</li>
+                </ul>
+                <p class="title" data-aos="fade-left" data-aos-delay="200">Certificate</p>
+                <ul data-aos="fade-left" data-aos-delay="200">
+                    <li>2019&nbsp;&nbsp;&nbsp;TEFL Certification</li>
+                    <li>2017&nbsp;&nbsp;&nbsp;Class 2 Standard Driver’s License</li>
+                    <li>2017&nbsp;&nbsp;&nbsp;Class 2 Standard Driver’s License</li>
+                    <li>2017&nbsp;&nbsp;&nbsp;Secondary School Level 2 Teaching Certificate</li>
+                </ul>
+                <p class="title" data-aos="fade-left" data-aos-delay="200">Experience</p>
+                <ul data-aos="fade-left" data-aos-delay="200">
+                    <li>2020-2022&nbsp;&nbsp;&nbsp;Guangwai Conghua Foreign language school, 영어 강사</li>
+                    <li>2019-2020&nbsp;&nbsp;&nbsp;Leftbank Art, 프로덕트 매니저 어시스턴트</li>
+                </ul>
+                <p class="title" data-aos="fade-left" data-aos-delay="200">Key Strengths</p>
+                <ul data-aos="fade-left" data-aos-delay="200">
+                    <li>꼼꼼함+정리정돈</li>
+                    <li>유연한 사고</li>
+                    <li>원활한 의사소통</li>
+                </ul>
+                <p class="title" data-aos="fade-left" data-aos-delay="200">What I like</p>
+                <ul data-aos="fade-left" data-aos-delay="200" class="like">
+                    <li>새로운 것 배우기<i class="fa-brands fa-leanpub"></i><span id="learn">currently learning React.js!</span><img src="./images/React-icon.svg.png" width="30px" class="react_logo"></li>
+                    <li>여행<i class="fa-solid fa-plane-departure"></i>
+                        요리<i class="fa-solid fa-fire-burner"></i>
+                        언어<i class="fa-solid fa-globe"></i>
+                        가족들과 시간보내기<i class="fa-solid fa-people-roof"></i></li>
+                </ul>
+                </div><!--page2_inner-->
+             </div>
+        </section><!--page2-->
+
+        <section class="page3 page" id="page3">
+            <div class="bg_img_other"></div>
+            <div class="page_inner">
+            <div class="skill_box">
+                <ul>
+                    <li><p class="react_bar">React.js</p></li>
+                    <li><p class="js_bar">JavaScript</p></li>
+                    <li><p class="jquery_bar">jQuery</p></li>
+                    <li><p class="css_bar">CSS3</p></li>
+                    <li><p class="html_bar">HTML5</p></li>
+                    <li><p class="styled_bar">Styled</p></li>
+                    <li><p class="emotion_bar">Emotion</p></li>
+                    <li><p class="git_bar">GIT</p></li>
+                </ul>
+            </div><!--skill_box-->
+            <div class="skill_txt">   
+                <ul class="text" data-aos="fade-right" data-aos-delay="50">
+                    <P class="title">React.js</p>
+                    <li>Redux를 이용한 상태관리 라이브러리 사용경험이 있습니다.</li>
+                    <li>Semantic ui 라이브러리를 배워 응용했습니다.</li>
+                    <li>styled-component, emotion을 활용할 수 있습니다.</li>
+                    <li>React.js bootstrap 사용에 익숙합니다.</li>
+                </ul> 
+                
+                <ul class="text" data-aos="fade-left" data-aos-delay="150">
+                    <p class="title">Java Script</p>
+                    <li>자바스크립트 언어의 기본을 지키려 노력합니다.</li>
+                    <li>동적으로 콘텐츠를 바꾸고 애니메이션을 추가할 수 있습니다.</li>
+                    <li>자바스크립트 플러그인을 불편함 없이 사용할 수 있습니다.</li>
+                    <li>필수적인 자바스크립트 활용이 가능합니다.</li>
+                </ul>
+               
+                <ul class="text" data-aos="fade-right" data-aos-delay="250">
+                    <p class="title">jQuery</p>
+                    <li>제이쿼리를 이용한 애니메이션을 구현할 수 있습니다.</li>
+                    <li>제이쿼리 플러그인 사용경험이 있습니다.</li>
+                    <li>동적 웹페이지 구현이 가능합니다.</li>
+                </ul>
+
+                <ul class="text" data-aos="fade-left" data-aos-delay="50">
+                    <p class="title">HTML5</p>
+                    <li>웹표준을 지키려 노력합니다.</li>
+                    <li>Html 태그로 웹페이지 내용을 구조화할 수 있습니다.</li>
+                    <li>각 엘리먼트들을 이해하고 작성할 수 있습니다.</li>
+                    <li>웹 표준과 웹 접근성을 준수하는 HTML 구조설계로 시멘틱 태그를 사용하여 마크업을 작성합니다.</li>
+                </ul>
+                
+                <ul class="text" data-aos="fade-right" data-aos-delay="150">
+                    <p class="title">CSS3</p>
+                    <li>CSS3의 기본 문법을 지키려 노력합니다.</li>
+                    <li>CSS3로 기초적인 동적웹사이트 구현이 가능합니다.</li>
+                    <li>keyframe을 활용한 애니메이션 기법을 활용할 수 있습니다.</li>
+                    <li></li>
+                </ul>
+
+                <ul class="text" data-aos="fade-left" data-aos-delay="250">
+                    <p class="title">GIT</p>
+                    <li>GIT 의 기초적인 개념을 이해할 수 있습니다.</li>
+                    <li>GIT의 필수 명령어들을 사용할 수 있습니다.</li>
+                    <li>Gitbub와 연동해 소스를 업로드 할수 있습니다. </li>
+                </ul>
+            </div><!--skill_txt-->
+            </div><!--page_inner-->
+        </section><!--page3-->
+
+        <section class="page4 page on" id="page4">
+            <div class="bg_img_other"></div>
+            <div class="page4_inner">
+             <div class="work_box">
+            <div class="work_img work swiper" data-aos="fade-right">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="./images/mobile_main.png" alt="mobile_main"></li>
+                    <li class="swiper-slide"><img src="./images/mobile_splash.png" alt="mobile_splash"></li>
+                    <li class="swiper-slide"><img src="./images/mobile_sub.png" alt="mobile_sub"></li>
+                    <li class="swiper-slide"><img src="./images/mobile_detail.png" alt="mobile_detail"></li>
+                    <li class="swiper-slide"><img src="./images/mobile_liked.png" alt="mobile_liked"></li>
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="work_txt work" data-aos="fade-left" data-aos-delay="150">
+                <h1 style="font-size:34px;">모바일 웹사이트</h1>
+                <p>미술 경매 사이트</p>
+                <p class="languages lan">HTML5·CSS3</p>
+                <ul>
+                    <li onclick="porart()">기획서</li>
+                    <li class="lan" onclick="porart_mobile()">Web</li>
+                    <li class="lan"><a href="https://github.com/tamoimi/porart_mobile" target="_blank">Git</a></li>
+                </ul>
+                <ul class="eachPages">
+                    <li onclick="mobile_main()">메인페이지</li>
+                    <li onclick="mobile_sub()">서브페이지</li>
+                    <li onclick="mobile_detail()">디테일페이지</li>
+                </ul>
+                <div class="text" data-aos="fade-left" data-aos-delay="250">
+                · 기존 웹사이트 '포털아트'를 리뉴얼 했습니다. </br>
+                · 웹개발의 기본인 HTML과 CSS를 사용해 로그인, 메인, 서브, 디테일 페이지로 나누어 제작했습니다. </br>
+                · CSS만을 사용해 동적인 기능을 구현했어야 했기에 소소한 실수들이 많았지만 CSS의 기본부터 다시 다질 수 있었습니다. </br>
+                · 페이지가 여러개였기 때문에 각 페이지들의 연동성 그리고 연관성에 초첨을 두어 구현했습니다.
+            </div>
+            </div>
+        </div><!--work_box-->
+        </div><!--page4_inner-->
+        </section><!--page4-->
+
+        <section class="page5 page" id="page5">
+            <div class="bg_img_other"></div>
+            <div class="page5_inner">
+             <div class="work_box">
+            <div class="work_img work swiper" data-aos="fade-right">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="./images/responsive_mobile.png" alt="responsive_mobile"></li>
+                    <li class="swiper-slide"><img src="./images/responsive_tablet.png" alt="responsive_tablet"></li>
+                    <li class="swiper-slide"><img src="./images/responsive_web.png" alt="responsive_web"></li>
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="work_txt work" data-aos="fade-left" data-aos-delay="150">
+                <h1 style="font-size:34px;">반응형 웹사이트</h1>
+                <p>스킨케어 브랜드 사이트</p>
+                <p class="languages lan">HTML5·CSS3·jQuery</p>
+                <ul>
+                    <li onclick="responsive()">기획서</li>
+                    <li class="lan"><a href="https://tamoimi.github.io/responsive_web/" target="_blank">Web</a></li>
+                    <li class="lan"><a href="https://github.com/tamoimi/responsive_web" target="_blank">Git</a></li>
+                </ul>
+                <div class="text">
+                · 미디어 쿼리를 이용해 각 디바이스에 맞는 반응형 사이트틀 제작했습니다.</br>
+                · 반응형 사이트이기 때문에 세가지 디바이스들의 특성을 고려하여 기획부터 세세하게 준비했습니다. </br>
+                · 페이지가 여러개였기 때문에 각 페이지들의 연동성 그리고 연관성에 초첨을 두어 구현했습니다. </br>
+                · 반응형 슬라이더인 bxslider 을 처음 사용해 오류를 잡기 힘들었지만 bxslider 의 기본적인 사용법을 웹사이트에서 읽어보고 적용할 수 있었습니다.
+            </div>
+            </div>
+        </div><!--work_box-->
+        </div><!--page5_inner-->
+        </section><!--page5-->
+
+        <section class="page6 page" id="page6">
+            <div class="bg_img_other"></div>
+            <div class="page6_inner">
+            <div class="work_box">
+            <div class="work_img work page6_img" data-aos="fade-right">
+            </div>
+            <div class="work_txt work" data-aos="fade-left" data-aos-delay="150">
+                <h1 style="font-size:34px;">PC 웹사이트</h1>
+                <p>미술 경매 사이트</p>
+                <p class="languages lan">HTML5·CSS3·Java Script</p>
+                <ul>
+                    <li class="lan"><a href="https://tamoimi.github.io/porart_web/" target="_blank">Web</a></li>
+                    <li class="lan"><a href="https://github.com/tamoimi/porart_web" target="_blank">Git</a></li>
+                </ul>
+                <div class="text">
+                ·이전에 모바일 웹사이트로 구현한 미술경매 사이트를 PC웹사이트로 다시 구현했습니다. </br>
+                ·Swiper 플러그인과 자바스크립트의 클릭이벤트로 동적인 기능들을 추가했습니다. </br>
+                ·홈페이지 특성상 많은 내용을 넣기 힘들었지만 오히려 기능에 초첨을 두어 공부할 수 있었습니다.
+            </div>
+            </div>
+        </div><!--work_box-->
+        </div><!--page6_inner-->
+        </section><!--page6-->
+
+        <section class="page7 page" id="page7">
+            <div class="bg_img_other"></div>
+            <div class="page7_inner">
+             <div class="work_box">
+            <div class="work_img work swiper" data-aos="fade-right">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="./images/baggu_main (1).jpg" alt="baggu_main"></li>
+                    <li class="swiper-slide"><img src="./images/baggu_sub.jpg" alt="baggu_sub"></li>
+                    <li class="swiper-slide"><img src="./images/baggu_detail.jpg" alt="baggu_detail"></li>
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="work_txt work" data-aos="fade-left" data-aos-delay="150">
+                <h1 style="font-size:34px;">팀프로젝트 웹사이트</h1>
+                <p>가방 브랜드 사이트</p>
+                <p class="languages lan">HTML5·CSS3·Java Script</p>
+                <ul>
+                    <li onclick="baggu_react()">기획서</li>
+                    <li class="lan"><a href="https://tamoimi.github.io/baggu_web/index.html" target="_blank">Web</a></li>
+                    <li class="lan"><a href="https://github.com/tamoimi/baggu_web" target="_blank">Git</a></li>
+                </ul>
+                <ul class="eachPages"> 
+                    <li><a href="https://tamoimi.github.io/baggu_web/index.html" target="_blank">메인페이지</a></li>
+                    <li><a href="https://tamoimi.github.io/baggu_web/sub_page/sub.html" target="_blank">서브페이지</a></li>
+                    <li><a href="https://tamoimi.github.io/baggu_web/detail_page/detail.html" target="_blank">디테일페이지</a></li>
+                </ul>
+                <div class="text">
+                · 5명의 팀원들과 기획, 제작을 같이하고 개인적으로 웹사이트를 구현했습니다.</br>
+                · 기존의 사이트들과 달리 조금 더 재미있는 사이트를 만들어 보기 위해 팀원들과 많은 고민을 했습니다.</br>
+                   팀원들의 참신한 아이디어 그러고 도움덕분에 자바스크립트로 간단한 상품필터 ,장바구니를 구현할 수 있었습니다.
+            </div>
+            </div>
+        </div><!--work_box-->
+        </div><!--page7_inner-->
+        </section><!--page7-->
+
+        <section class="page8 page" id="page8">
+            <div class="bg_img_other"></div>
+            <div class="page8_inner">
+             <div class="work_box">
+            <div class="work_img work swiper" data-aos="fade-right">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="./images/baggu_react_main.png" alt="baggu_react_main"></li>
+                    <li class="swiper-slide"><img src="./images/baggu_react_sub.png" alt="baggu_react_sub"></li>
+                </ul>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="work_txt work" data-aos="fade-left" data-aos-delay="150">
+                <h1 style="font-size:34px;"> 리액트 쇼핑몰 웹사이트</h1>
+                <p>가방 브랜드 사이트</p>
+                <p class="languages lan">React.js·HTML5·CSS3</p>
+                <ul>
+                    <li class="lan"><a href="https://baggu.netlify.app/" target="_blank">Web</a></li>
+                    <li class="lan"><a href="https://github.com/tamoimi/baggu-react" target="_blank">Git</a></li>
+                </ul>
+                <div class="text">
+                · 팀프로젝트로 제작한 쇼핑몰 사이트를 React.js로 다시 구현했습니다.</br>
+                · Redux tool kit을 사용해 간단한 장바구니 기능을 추가했습니다.</br>
+                · 웹사이트의 일부는 React bootstrap을 사용했습니다.
+            </div>
+            </div>
+        </div><!--work_box-->
+        </div><!--page8_inner-->
+        </section><!--page8-->
+
+       
+        
+
+        <section class="page10 page on" id="page10">
+        <div class="page10_inner">
+            <div class="bg_img_end"><img src="./images/dust-png-1-by-PhotoshopSupply.png" alt=""></div>
+            <strong class="title_end lan">Get in touch!</strong>
+            <p class="thx">시간내어 제 포트폴리오를 봐주셔서 감사합니다</p>
+            <p class="tel sweet"><i class="fa-solid fa-phone"></i>+82 10·4800·4772</p>
+            <p class="hi sweet">say hi: <a href="mailto:"tamiortami@gmail.com>tamiortami@gamil.com</a></p>
+            <p class="toTop sweet">Back to start! <img src="./images/arrow.png" alt="" width="40px"></p>
+        </div>
+        <span class="copy">Copyright ⓒ TAEKYUNG KIM. ALL RIGHTS RESERVED. </br>
+                본 사이트는 상업적 목적이 아닌 개인 포트폴리오로 제작되었습니다.</span>
+        
+
+        </section>
+
+
+
+
+        </div><!--container-->
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
